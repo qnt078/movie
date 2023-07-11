@@ -42,7 +42,7 @@ const ListSeries = (props) => {
               <img src={item.Poster} alt="movie" />
               <div className="movie-info">
                 <h3>{item.Title}</h3>
-                <p>{item.Year}</p>
+                
               </div>
             </div>
           );

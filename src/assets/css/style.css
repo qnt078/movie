@@ -12,7 +12,7 @@
 }
 
 .main {
-  max-height: 1000vh;
+  max-height: 2000vh;
   background-color: #091b2a;
 }
 
@@ -27,7 +27,7 @@
  
 }
 .header.scrolled{
-  background-color: rgba(0, 0, 0, 0.547);
+  background-color: rgba(0, 0, 0, 0.885);
 
 }
 

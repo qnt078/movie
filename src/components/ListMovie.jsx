@@ -15,6 +15,7 @@ const ListMovie = (props) => {
       <div className="list-item">
         {props.data?.map((item, index) => {
           return (
+            
             <div
               className="list-movie"
               key={index}
