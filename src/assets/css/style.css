@@ -40,6 +40,9 @@
    
 
   }
+  #menu-icon {
+    display: none;
+  }
   .header .logo {
     color: #ffffff;
     font-size: 27px;
@@ -48,6 +51,7 @@
     text-decoration: none;
     font-family: "Helvetica", sans-serif;
   }
+
   .header span{
     color : red;
     font-family: "Helvetica", sans-serif;

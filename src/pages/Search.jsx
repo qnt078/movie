@@ -11,7 +11,7 @@ const SearchMovies = () => {
 
   const handleSearch = async () => {
     try {
-      const response = await axios.get(`http://www.omdbapi.com/?apikey=49ef34d8&s=${query}`);
+      const response = await axios.get(`https://www.omdbapi.com/?s=${query}&apikey=49ef34d8`);
       setMovies(response.data.Search || []);
     } catch (error) {
       console.error(error);
@@ -32,7 +32,7 @@ const SearchMovies = () => {
 
   const fetchSuggestions = async (value) => {
     try {
-      const response = await axios.get(`http://www.omdbapi.com/?apikey=49ef34d8&s=${value}`);
+      const response = await axios.get(`https://www.omdbapi.com/?s=${value}&apikey=49ef34d8`);
       setSuggestions(response.data.Search || []);
     } catch (error) {
       console.error(error);
