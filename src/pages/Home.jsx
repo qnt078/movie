@@ -62,8 +62,8 @@ const Home = () => {
           alt="Slide 2"
         />
         <Carousel.Caption>
-        <h3>{movies[2].Title}</h3>
-          <p>{movies[2].Plot}</p>
+        <h3>{movies[1].Title}</h3>
+          <p>{movies[1].Plot}</p>
           <div className="button">
           <button> 
           
@@ -80,8 +80,8 @@ const Home = () => {
           alt="Slide 3"
         />
         <Carousel.Caption>
-        <h3>{movies[3].Title}</h3>
-          <p>{movies[3].Plot}</p>
+        <h3>{movies[2].Title}</h3>
+          <p>{movies[2].Plot}</p>
           <div className="button">
           <button> 
           
