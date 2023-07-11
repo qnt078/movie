@@ -1,0 +1,141 @@
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+  #menu-icon {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  html {
+    font-size: 50%;
+  }
+  .header {
+    padding: 2rem 4%;
+  }
+.header .logo {
+  font-size: 24px !important;
+}
+.navbar a {
+  font-size: 11.5px !important;
+}
+
+ .login {
+  width: 20%;
+ }
+
+ #menu-icon {
+  display: none;
+ }
+
+
+    
+  .login {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    margin-left: 5px;
+    
+    
+  }
+  .login button {
+    font-size: 9px !important; 
+  }
+
+  .carousel-caption {
+    margin-bottom: 50px;
+  }
+  .search-input{
+    margin-top: 100px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 60%;
+  }
+  /* .header {
+    padding: 2rem 4%;
+  } */
+  /* .home{ 
+    padding: 0 4%;
+  } */
+  #menu-icon{
+    display: block;
+    color: #ffffff;
+  }
+  .logo {
+    align-items: center;
+  }
+  .navbar{
+    position: absolute;
+    top: 78%;
+    left: -100%;
+    width: 100%;
+    max-height: 100vh;
+    padding: 1rem 4%;
+    background: #091b2acf;
+    box-shadow: 0 1px 2px rgba(0,);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 25px;
+    transition: .25s ease;
+    transition-delay: .25s;
+
+  }
+.open {
+    left: 0;
+    transition-delay: 0s;
+
+  }
+  .navbar a {
+    display: block;
+    font-size: 1.5rem;
+    margin: 2rem 0;
+
+
+  }
+  .navbar .search-icon{
+    display: block;
+    font-size: 1.5rem;
+    margin: 0 0;
+  }
+ #menu-icon{
+    color: #fff;
+    font-size: 25px;
+    
+    cursor: pointer;
+    left: 0;
+ }
+  /* .login{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 1rem 4%;
+    box-shadow: 0 1px 2px rgba(0,);
+    display: block;
+    flex-direction: column;
+    
+
+  } */
+  .carousel-caption h3 {
+    font-size: 1.5rem;
+  }
+  .carousel-caption button {
+    display: none;
+  }
+  .modal{
+    padding: 1rem;
+  }
+  .content-img img {
+    object-fit: cover;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+  }
+}
